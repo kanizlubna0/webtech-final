@@ -10,7 +10,7 @@ if($conn->connect_error)
 }
 else
 {
-$q = "UPDATE STUDENT SET Name='Mehran Hossain' WHERE ID=20431201";
+$q = "UPDATE STUDENT SET Name='Kaniz Fatima' WHERE ID=20431371";
 	$result=$conn->query($q);
 	if($result)
 		echo"Data Updated Successfully";
